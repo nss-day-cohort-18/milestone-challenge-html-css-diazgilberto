@@ -1,0 +1,14 @@
+Content and Technical Requirements:
+    Create a site for your own personal branding. Keep in mind this is an HTML exercise, however it is also the beginning of your portfolio. We will be focusing on the HTML structure and syntax of your code. Keep styles simple. 
+
+ ☐ HTML
+    ✔ Title - make it meaningful. @done (17-01-13 12:03)
+    ✔ Header element `<h1>` - This is the main headline; include your name and what this page is. @done (17-01-13 12:03)
+    ✔ Photo @done (17-01-13 12:43)
+    ✔ Article element containing your bio. @done (17-01-13 12:03)
+    ☐ Article element with links to resources or sites you like.
+    ☐ Article element with two sections for future projects (placeholders)
+    ☐ Footer element with email and professional social media links; Github, twitter, LinkedIn, etc.
+    ☐ Semantic mark-up for all major elements.
+    ☐ Validate your html page with W3 validator: https://validator.w3.org/
+    ☐ Appropriate folder structure: images, css.
