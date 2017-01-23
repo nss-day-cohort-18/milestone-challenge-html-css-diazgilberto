@@ -1,84 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <title>Gilberto Diaz</title>
 </head>
+
 <body>
+  <!-- Heading -->
+  <section class="container-fluid">
+    <div class="container-fluid heading-text heading-container">
+      <section class="row">
+        <div class="col">
+          <img class="img-fluid" src="images/IMG_0083.PNG" alt="Gilberto Diaz Profile Picture">
+        </div>
+        <div class="col-8">
+          <h2 class="display-2">I'm a Developer and Data Scientist contributing to make the world a better place.</h2>
+          <br>
+          <h3>I'm Gilberto Diaz and I enjoy working in the data science realm building web applications. Take a look at my <span class="underline"><a href="#">work</a></span>, read my <span class="underline"><a href="#">blog</a></span> or shot me a
+            <span class="underline"><a href="#">message.</a></span>
+          </h3>
+        </div>
+      </section>
+    </div>
+  </section>
+  <!-- End of Heading -->
 
-  <!-- Main Content -->
-  <section class="container">
-    <!--<h1>Gilberto Diaz</h1>-->
+  <br>
+  <!-- Break between header and content -->
 
-    <!--Heading-->
-    <section class="heading">
-      <img class="profile-picture" src="images/IMG_0083.PNG" alt="Gilberto Diaz Profile Picture">
-      <div class="heading-text">
-        <h2>I'm a Developer and Data Scientist contributing to make the world a better place.</h2>
-        <br>
-        <h3>I'm Gilberto Diaz and I enjoy working in the data science realm building web applications. Take a look at my <span class="underline"><a href="#">work</a></span>, read my <span class="underline"><a href="#">blog</a></span> or shot me a <span class="underline"><a href="#">message.</a></span></h3>
-        
+
+  <!--Cards: Bio | Resources | Projects-->
+  <section class="container-fluid card-text">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">Biography</h3>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Read more...</a>
+          </div>
+        </div>
       </div>
-    </section><!-- End of Heading -->
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">Resources</h3>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Read more...</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">Projects</h3>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Read more...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Cards: Bio | Resources | Projects -->
 
-    <!--Navigation Bar-->
-    <section class="navbar-section">
-      <nav class="navbar">
-        <ul>
-          <li><a href="#">Item1</a></li>
-          <li><a href="#">Item2</a></li>
-          <li><a href="#">Item3</a></li>
-        </ul>
-      </nav>
-    </section>
-    <!--End of Navigation Bar-->
 
-    <!-- Biography -->
-    <section class="bio">
-      <article>
-        <h4>Biography</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </article>
-    </section><!-- End of Biography -->
 
-    <!-- Resources -->
-    <section class="resources">
-      <h4>Resources</h4>
-      <article>
-        <a href="http://css-tricks.com" title="CSS-Tricks">CSS-Tricks</a>
-        <a href="http://stackoverflow.com" title="Stackoverflow">Stackoverflow</a>
-        <a href="https://developer.mozilla.org/en-US/" title="Mozilla Developer Network">Mozilla Developer Network</a>
-      </article>
-    </section><!-- End of Resources -->
+  <!-- Footer -->
+  <footer class="navbar fixed-bottom navbar-toggleable-md navbar-light">
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="mailto:diaz.gilberto@gmail.com?subject=feedback" title="Email me">Email me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" title="Twitter">Twitter</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" title="LinkedIn">LinkedIn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" title="Github">Github</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+      Navbar text with an inline element
+    </span>
+    </div>
+  </footer>
+  <!--<footer class="navbar fixed-bottom navbar-light bg-faded">
+    <a href="mailto:diaz.gilberto@gmail.com?subject=feedback" title="Email me">Email me</a>
+    <a href="#" title="Twitter">Twitter</a>
+    <a href="#" title="LinkedIn">LinkedIn</a>
+    <a href="#" title="Github">Github</a>
+  </footer>-->
+  <!-- End of Footer -->
 
-    <!-- Projects -->
-    <section class="projects">
-      <h4>Projects</h4>
-      <article>
-        <p>Future Project 1</p>
-      </article>
-      <article>
-        <p>Future Project 2</p>
-      </article>
-    </section><!-- End of Projects -->
 
-    <!-- Footer -->
-    <footer class="footer">
-      <a href="mailto:diaz.gilberto@gmail.com?subject=feedback" title="Email me">Email me</a>
-      <a href="#" title="Twitter">Twitter</a>
-      <a href="#" title="LinkedIn">LinkedIn</a>
-      <a href="#" title="Github">Github</a>
-    </footer><!-- End of Footer -->
-
-  </section><!-- End of Main Content -->
-
+  <!--Bootstrap JS Dependancies-->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
+
 </html>
