@@ -9,7 +9,7 @@ h3 {
 }
 
 .heading-text h3 {
-  font-size: 2.5em;
+  font-size: 2em;
   letter-spacing: 0.1em;
 }
 
@@ -23,6 +23,10 @@ h3 {
   padding: 1em;
 }
 
+.heading-container img {
+  width: 70%;
+}
+
 .navbar-light {
   z-index: -1;
   background-color: #444;
@@ -31,4 +35,10 @@ h3 {
 .card-text h3 {
   color: #333;
   font-weight: bold;
+}
+
+#navbarText a {
+  color: #f2f2f2;
+  font-size: 2em;
+  margin-right: 0.5em;
 }
