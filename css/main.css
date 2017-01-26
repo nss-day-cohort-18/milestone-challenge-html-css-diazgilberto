@@ -1,0 +1,81 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.main-content {
+  padding: 0 10%;
+}
+
+.heading-text h2,
+h3 {
+  font-weight: lighter;
+  color: #777;
+}
+
+.heading-text h3 {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.heading-text a {
+  color: orange;
+  font-weight: bold;
+}
+
+.heading-container {
+  background-color: #fff;
+  box-shadow: 0rem 1rem 3rem .005rem #9f9f9f;
+}
+
+.side-text {
+  background-color: #EBEBEB;
+  padding: 1rem;
+  box-shadow: inset -.3rem 0 .5rem -.5rem #333;
+}
+
+.navbar {
+  padding: 0.5rem 15%;
+}
+
+.navbar img {
+  width: 7rem;
+}
+
+.nav-link {
+  color: #f2f2f2;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.brand-text {
+  font-size: 2.5rem;
+  font-weight: lighter;
+  color: #f2f2f2;
+}
+
+.navbar-light {
+  z-index: -1;
+  background-color: #007ACC;
+}
+
+.navbar-menu-text {
+  margin: 0 auto;
+}
+
+.navbar-inverse {
+  background-color: #333;
+  margin-bottom: 2rem;
+}
+
+
+}
+.card-text h3 {
+  color: #333;
+  font-weight: bold;
+}
+
+/*#navbarText a {
+  color: #f2f2f2;
+  font-size: 2em;
+  margin-right: 0.5em;
+}*/
