@@ -11,31 +11,85 @@
 </head>
 
 <body>
-  <!-- Heading -->
-  <section class="container-fluid">
-    <div class="container-fluid heading-text heading-container">
-      <section class="row">
-        <div class="col-4">
-          <img class="img-fluid" src="images/IMG_0083.PNG" alt="Gilberto Diaz Profile Picture">
-        </div>
-        <div class="col-8">
-          <h2 class="display-4">I'm a Developer and Data Scientist contributing to make the world a better place.</h2>
-          <br>
-          <h3>I'm Gilberto Diaz and I enjoy working in the data science realm building web applications. Take a look at my <span class="underline"><a href="#">work</a></span>, read my <span class="underline"><a href="#">blog</a></span> or shot me a
-            <span class="underline"><a href="#">message.</a></span>
-          </h3>
-        </div>
-      </section>
-    </div>
-  </section>
-  <!-- End of Heading -->
+  <!--Navbar Image & Social Icons-->
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <a class="navbar-brand" href="#"><img class="img-fluid" src="images/IMG_0083.PNG" alt="Gilberto Diaz Profile Picture"></a>
 
-  <br>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="brand-text" href="#">Gilberto Diaz <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+          <a class="nav-link" href="mailto:diaz.gilberto@gmail.com?subject=feedback" title="Email me"><i class="fa fa-envelope"></i></a>
+        </span>
+      <span class="navbar-text">
+          <a class="nav-link" href="#" title="Twitter"><i class="fa fa-twitter-square"></i></a>
+        </span>
+      <span class="navbar-text">
+          <a class="nav-link" href="#" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
+        </span>
+      <span class="navbar-text">
+          <a class="nav-link" href="#" title="Github"><i class="fa fa-github"></i></a>
+        </span>
+    </div>
+  </nav>
+  <!--End of Navbar Image & Social Icons-->
+
+  <!--Navigation Bar-->
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-faded">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto navbar-menu-text">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">My Work</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--End of Navigation Bar-->
+
+
+
+  <!-- Heading -->
+  <div class="container-fluid main-content">
+
+    <section class="container-fluid welcome-card">
+      <div class="container-fluid heading-text heading-container">
+        <section class="row">
+          <div class="col-3 side-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores in dolor placeat, natus unde similique explicabo obcaecati alias accusantium magni blanditiis voluptate fugit doloribus quasi commodi, eveniet a, itaque nobis.
+          </div>
+          <div class="col-9">
+            <h2 class="display-4">I'm a Software Developer and Data Scientist... powering the internet.</h2>
+            <br>
+            <h3>I'm Gilberto Diaz and I enjoy working in the data science realm building web applications. Take a look at my <span class="underline"><a href="#">work</a></span>, read my <span class="underline"><a href="#">blog</a></span> or shoot me a
+              <span class="underline"><a href="#">message.</a></span>
+            </h3>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- End of Heading -->
+
+    <br>
+    <hr>
+    <br>
+  </div>
   <!-- Break between header and content -->
 
 
   <!--Cards: Bio | Resources | Projects-->
-  <section class="container-fluid card-text">
+  <!--<section class="container-fluid card-text">
     <div class="row">
       <div class="col-sm-4">
         <div class="card">
@@ -65,13 +119,13 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
   <!-- End of Cards: Bio | Resources | Projects -->
 
 
 
   <!-- Footer -->
-  <footer class="navbar fixed-bottom navbar-toggleable-md navbar-light">
+  <!--<footer class="navbar fixed-bottom navbar-toggleable-md navbar-light">
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
@@ -91,7 +145,7 @@
         </li>
       </ul>
     </div>
-  </footer>
+  </footer>-->
 
 
   <!--Bootstrap JS Dependancies-->
